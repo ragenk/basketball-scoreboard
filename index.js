@@ -22,7 +22,9 @@ function newGame() {
 }
 
 function saveScore() {
-    scoreHistory.innerHTML += hScore + " | " + gScore + "<br>";
+    scoreHistory.innerHTML += hScore + " | " + gScore + "<br>";    
+    hScore = 0;
+    gScore = 0;    
 }
 
 function clearBoard() {
